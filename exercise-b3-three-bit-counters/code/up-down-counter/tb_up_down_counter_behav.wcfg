@@ -1,0 +1,52 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<wave_config>
+   <wave_state>
+   </wave_state>
+   <db_ref_list>
+      <db_ref path="tb_up_down_counter_behav.wdb" id="1">
+         <top_modules>
+            <top_module name="tb_up_down_counter" />
+         </top_modules>
+      </db_ref>
+   </db_ref_list>
+   <zoom_setting>
+      <ZoomStartTime time="0.000 ns"></ZoomStartTime>
+      <ZoomEndTime time="243.001 ns"></ZoomEndTime>
+      <Cursor1Time time="0.000 ns"></Cursor1Time>
+   </zoom_setting>
+   <column_width_setting>
+      <NameColumnWidth column_width="234"></NameColumnWidth>
+      <ValueColumnWidth column_width="120"></ValueColumnWidth>
+   </column_width_setting>
+   <WVObjectSize size="7" />
+   <wvobject type="logic" fp_name="/tb_up_down_counter/clk">
+      <obj_property name="ElementShortName">clk</obj_property>
+      <obj_property name="ObjectShortName">clk</obj_property>
+   </wvobject>
+   <wvobject type="logic" fp_name="/tb_up_down_counter/resetn">
+      <obj_property name="ElementShortName">resetn</obj_property>
+      <obj_property name="ObjectShortName">resetn</obj_property>
+   </wvobject>
+   <wvobject type="logic" fp_name="/tb_up_down_counter/count_en">
+      <obj_property name="ElementShortName">count_en</obj_property>
+      <obj_property name="ObjectShortName">count_en</obj_property>
+   </wvobject>
+   <wvobject type="logic" fp_name="/tb_up_down_counter/dir">
+      <obj_property name="ElementShortName">dir</obj_property>
+      <obj_property name="ObjectShortName">dir</obj_property>
+   </wvobject>
+   <wvobject type="array" fp_name="/tb_up_down_counter/sum">
+      <obj_property name="ElementShortName">sum[2:0]</obj_property>
+      <obj_property name="ObjectShortName">sum[2:0]</obj_property>
+      <obj_property name="Radix">UNSIGNEDDECRADIX</obj_property>
+      <obj_property name="isExpanded"></obj_property>
+   </wvobject>
+   <wvobject type="logic" fp_name="/tb_up_down_counter/cout">
+      <obj_property name="ElementShortName">cout</obj_property>
+      <obj_property name="ObjectShortName">cout</obj_property>
+   </wvobject>
+   <wvobject type="other" fp_name="/tb_up_down_counter/CLOCK_PERIOD">
+      <obj_property name="ElementShortName">CLOCK_PERIOD</obj_property>
+      <obj_property name="ObjectShortName">CLOCK_PERIOD</obj_property>
+   </wvobject>
+</wave_config>

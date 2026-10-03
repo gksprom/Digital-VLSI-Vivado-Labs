@@ -1,0 +1,14 @@
+.DS_Store
+.Xil/
+*.cache/
+*.gen/
+*.hw/
+*.ip_user_files/
+*.runs/
+*.sim/
+*.jou
+*.log
+*.str
+*.pb
+*.wdb
+
