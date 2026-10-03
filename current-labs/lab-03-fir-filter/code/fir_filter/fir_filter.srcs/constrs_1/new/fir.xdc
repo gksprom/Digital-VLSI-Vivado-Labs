@@ -1,0 +1,1 @@
+create_clock -name sys_clk_pin -period 10.000 [get_ports clk]

@@ -11,4 +11,9 @@
 *.str
 *.pb
 *.wdb
-
+*.bit
+*.dcp
+*.xsa
+*.so
+*.bda
+*.ui
